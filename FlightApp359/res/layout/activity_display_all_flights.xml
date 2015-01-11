@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="group_0359.frontend.DisplayAllFlightsActivity" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#31556D" />
+
+    <ListView
+        android:id="@+id/all_flights_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:divider="#9DCDB8"
+        android:dividerHeight="1px" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#31556D" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0A0B0F"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/add_flight_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toAddNewFlightActivity"
+            android:text="@string/add_flight_txt" />
+
+        <Button
+            android:id="@+id/view_flight_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toDisplayFlightActivity"
+            android:text="@string/view_flight_txt" />
+
+        <Button
+            android:id="@+id/remove_flight_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="removeFlight"
+            android:text="@string/remove_flight_txt" />
+    </LinearLayout>
+
+</LinearLayout>

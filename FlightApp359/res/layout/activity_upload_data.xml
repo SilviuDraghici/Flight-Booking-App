@@ -1,0 +1,74 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="group_0359.frontend.UploadDataActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/user_csv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text="@string/user_csv_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/button_pick_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="browseUser"
+            android:text="@string/browse_button" />
+
+        <EditText
+            android:id="@+id/user_filepath"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/filepath_hint" />
+
+        <Button
+            android:id="@+id/button_save_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveUser"
+            android:text="@string/upload_button" />
+        <TextView
+            android:id="@+id/flight_csv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text="@string/flight_csv_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/button_pick_flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="browseFlight"
+            android:text="@string/browse_button" />
+
+        <EditText
+            android:id="@+id/flight_filepath"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/filepath_hint" />
+
+        <Button
+            android:id="@+id/button_save_flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveFlight"
+            android:text="@string/upload_button" />
+    </LinearLayout>
+
+</ScrollView>

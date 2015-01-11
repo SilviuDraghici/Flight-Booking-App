@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Given strings. -->
+    <string name="app_name">Flight App 359</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Strings for actions in the Options Menu or Action Bar. -->
+    <string name="title_activity_admin_actions">Admin Actions</string>
+    <string name="title_activity_user_action_bar">Admin Actions</string>
+    <string name="title_activity_action_bar">Admin Actions</string>
+    <string name="action_view_all_clients">View All Clients</string>
+    <string name="action_view_all_flights">View All Flights</string>
+    <string name="action_upload_system_data">Upload</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_add_user">Add User</string>
+
+    <!-- Uncategorize strings. -->
+    <string name="colon_txt">:</string>
+    <string name="decimal_txt">.</string>
+    <string name="dash_txt">-</string>
+    <string name="dollar_sign_txt">$</string>
+    <string name="slash_txt">/</string>
+    <string name="empty_txt">" "</string>
+    <string name="cancel_txt">@android:string/cancel</string>
+    <string name="edit_txt">Edit</string>
+    <string name="user_txt">CLIENT:" "</string>
+
+    <!-- Cost hints string -->
+    <string name="dollars_hint">0</string>
+    <string name="cents_hint">00</string>
+
+    <!-- Date hints strings -->
+    <string name="year_hint">YYYY</string>
+    <string name="month_hint">MM</string>
+    <string name="day_hint">DD</string>
+
+    <!-- Time hints strings -->
+    <string name="hour_hint">HH</string>
+    <string name="minute_hint">MM</string>
+
+    <!-- Strings for Login launcher activity. -->
+    <string name="login_txt">Login</string>
+    <string name="login_prompt">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <!-- User Activity strings. -->
+    <string name="title_activity_user">User</string>
+    <string name="email_title">Email:\u0020</string>
+    <string name="address_title">Address:\u0020</string>
+    <string name="billing_title">Billing Information:</string>
+    <string name="creditcard_title">Credcard #:\u0020</string>
+    <string name="expirydate_title">Expiry Date:\u0020</string>
+    <string name="itins_title">Itineraries:</string>
+    <string name="num_itins">Booked</string>
+    <string name="titctivity_user">User</string>
+    <string name="titl_activity_user">User</string>
+    <string name="title_ctivity_user">User</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_client">Client</string>
+    <string name="change_user_data">Edit Info</string>
+    <string name="view_bookings">View</string>
+    <string name="search_text">Search Itineraries</string>
+    <string name="client_name_hint">Firstname Lastname</string>
+    <string name="date_hint">Date (YYYY-MM-DD)</string>
+    <string name="origin_hint">Orign City</string>
+    <string name="destination_hint">Destination City</string>
+    <string name="sort_text">Sort By:</string>
+    <string name="radio_cost">Cost</string>
+    <string name="radio_time">Time</string>
+    <string name="search_button">Search</string>
+
+    <!-- Display All Clients Activity strings. -->
+    <string name="title_activity_display_all_clients">All Clients</string>
+    <string name="view_client_txt">View</string>
+    <string name="add_client_txt">New</string>
+    <string name="remove_client_txt">Remove</string>
+
+    <!-- Display all Flights Activity strings. -->
+    <string name="title_activity_display_all_flights">All Flights</string>
+    <string name="view_flight_txt">View</string>
+    <string name="add_flight_txt">New</string>
+    <string name="remove_flight_txt">Remove</string>
+
+    <!-- Edit Flight/Add New Flight/View Flight Activity strings. -->
+    <string name="title_activity_edit_flight">Edit</string>
+    <string name="add_new_flight_information_txt">Add New Flight</string>
+    <string name="flight_number_txt">FLIGHT NUMBER:</string>
+    <string name="flight_num_txt">FLIGHT NUMBER</string>
+    <string name="flight_number_edit" />
+    <string name="flight_num_edit" />
+    <string name="flight_num_hint">Flight Number</string>
+    <string name="general_information_txt">GENERAL INFORMATION</string>
+    <string name="airline_txt">Airline:</string>
+    <string name="airline_hint">Airline</string>
+    <string name="airline_edit" />
+    <string name="flight_cost_txt">Cost:</string>
+    <string name="flight_cost_hint">Cost</string>
+    <string name="flight_cost_edit">0.00</string>
+    <string name="flight_dollar_edit" />
+    <string name="flight_cent_edit" />
+    <string name="num_available_seats_txt">Number of Available Seats:</string>
+    <string name="num_available_seats_hint">Number of Seats</string>
+    <string name="num_available_seats_edit" />
+    <string name="departure_information_txt">DEPARTURE INFORMATION</string>
+    <string name="arrival_information_txt">ARRIVAL INFORMATION</string>
+    <string name="city_txt">City:</string>
+    <string name="date_and_time_txt">Date and Time:</string>
+    <string name="departure_city_hint">City of Departure</string>
+    <string name="departure_city_edit" />
+    <string name="departure_date_and_time" />
+    <string name="departure_date_hint">Date of Departure (YYYY-MM-DD)</string>
+    <string name="departure_date_edit" />
+    <string name="departure_year_edit" />
+    <string name="departure_month_edit" />
+    <string name="departure_day_edit" />
+    <string name="departure_time_hint">Time of Departure (HH:MM)</string>
+    <string name="departure_time_edit" />
+    <string name="departure_hour_edit" />
+    <string name="departure_minute_edit" />
+    <string name="arrival_city_hint">City of Arrival</string>
+    <string name="arrival_city_edit" />
+    <string name="arrival_date_and_time" />
+    <string name="arrival_date_hint">Date of Arrival (YYYY-MM-DD)</string>
+    <string name="arrival_date_edit" />
+    <string name="arrival_year_edit" />
+    <string name="arrival_month_edit" />
+    <string name="arrival_day_edit" />
+    <string name="arrival_time_hint">Time of Arrival (HH:MM)</string>
+    <string name="arrival_time_edit" />
+    <string name="arrival_hour_edit" />
+    <string name="arrival_minute_edit" />
+    <string name="travel_time_txt">Travel Time:</string>
+    <string name="travel_time_edit">0 Hours 0 Minutes</string>
+    <string name="bookers_view_txt">BOOKERS [Press to View]</string>
+    <string name="bookers_hide_txt">BOOKERS [Press to Hide]</string>
+    <string name="save_flight_txt">Save</string>
+    <string name="save_new_flight_txt">Create</string>
+    <string name="edit_flight_txt">Edit</string>
+
+    <!-- Edit User/Add New Client Activity strings. -->
+    <string name="title_activity_edit_user">Edit</string>
+    <string name="password_txt">Password</string>
+    <string name="email_txt">EMAIL:</string>
+    <string name="email_edit" />
+    <string name="personal_information_txt">PERSONAL INFORMATION</string>
+    <string name="last_name_txt">Last Name:</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="last_name_edit" />
+    <string name="first_name_txt">First Name:</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="first_name_edit" />
+    <string name="address_txt">Address:</string>
+    <string name="address_hint">Address</string>
+    <string name="address_edit" />
+    <string name="billing_information_txt">BILLING INFORMATION</string>
+    <string name="credit_card_num_txt">Credit Card Number:</string>
+    <string name="credit_card_num_hint">Credit Card Number</string>
+    <string name="credit_card_num_edit" />
+    <string name="expiry_date_txt">Expiry Date:</string>
+    <string name="expiry_year_edit" />
+    <string name="expiry_month_edit" />
+    <string name="expiry_day_edit" />
+    <string name="expiry_date_hint">Expiry Date (YYYY-MM-DD)</string>
+    <string name="expiry_date_edit" />
+    <string name="save_user_txt">Save</string>
+
+    <!-- Search Bookings Activity strings. -->
+    <string name="title_activity_search_bookings">Search Bookings</string>
+    <string name="search_itineraries">Search Itineraries</string>
+    <string name="search_flights">Search Flights</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="departure_date">Date of departure</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="sort_cost">Cost</string>
+    <string name="sort_time">Time</string>
+    <string name="search">Search!</string>
+    <string name="book">Book!</string>
+
+    <!-- Display Bookings Activity strings. -->
+    <string name="title_activity_display_bookings">Bookings</string>
+    <string name="booked_itineraries">Booked Itineraries</string>
+
+    <!-- Display Itinerary Activity strings. -->
+    <string name="title_activity_display_itinerary">Itinerary</string>
+    <string name="view_flight_details_txt">View Flight</string>
+    <string name="total_travel_time_of_itinerary">Total Travel Time</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="flight_stops_txt">Flight Stops:</string>
+
+    <!-- Upload Data Activity strings. -->
+    <string name="title_activity_upload_data">Upload</string>
+    <string name="user_csv_title">USER CSV</string>
+    <string name="browse_button">BROWSE</string>
+    <string name="filepath_hint">File Path</string>
+    <string name="upload_button">UPLOAD</string>
+    <string name="flight_csv_title">FLIGHT CSV</string>
+
+    <!-- Display Flight Activiy strings. -->
+    <string name="title_activity_display_flight">Flight</string>
+
+    <!-- Add New Flight Activity strings. -->
+    <string name="title_activity_add_new_flight">Create Flight</string>
+
+    <!-- Add New Client Activity strings. -->
+    <string name="user_email" />
+    <string name="title_activity_add_new_client">Create Client</string>
+    <string name="add_new_client_txt">CREATE NEW CLIENT</string>
+    <string name="save_new_client_txt">Create</string>
+
+</resources>
